@@ -23,3 +23,6 @@ target
 # Ignore some document formats
 doc/*.bkp
 doc/*.drawio
+
+# Ignore mock log data which might leak sensitive information about players or the server
+test/*.log
